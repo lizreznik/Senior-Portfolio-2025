@@ -7,7 +7,6 @@ main {
     font-family: "Playfair Display SC", serif;
     font-weight: 400;
     font-style: normal;
-
 }
 
 /* Cursor */
@@ -16,7 +15,8 @@ main {
     width: 24em;
     margin: 0 auto;
     border-right: 2px solid rgba(255, 255, 255, .75);
-    font-size: 30px;
+    font-size: 48px;
+    /* Increased font size */
     text-align: center;
     white-space: nowrap;
     overflow: hidden;
@@ -26,8 +26,10 @@ main {
 /* Animation */
 .typewriter-animation {
     animation:
-        typewriter 5s steps(50) 0.5s 1 normal both,
-        blinkingCursor 500ms steps(50) infinite normal;
+        typewriter 2s steps(40) 0.2s 1 normal both,
+        /* Faster typing */
+        blinkingCursor 400ms steps(50) infinite normal;
+    /* Faster blink */
 }
 
 @keyframes typewriter {
@@ -36,7 +38,7 @@ main {
     }
 
     to {
-        width: 12%;
+        width: 18%;
     }
 }
 
