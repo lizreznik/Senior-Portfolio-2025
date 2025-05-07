@@ -63,3 +63,23 @@ a {
     transition: width 0.25s ease-in-out 0.25s;
   }
   /* nav bar hover END */ 
+  .header {
+    font-family: "Playfair Display SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%; 
+    color: #3C5B49;
+}
+.card{ 
+    padding: 3%; 
+    margin: 3%; 
+}
+  /* footer START */ 
+  p {
+    color: black;
+    text-align: center;
+}
+/* footer END */ 
