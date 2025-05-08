@@ -1,15 +1,14 @@
 const vue_app = Vue.createApp({
-    // This automatically imports your movies.json file and puts it into
-    //   the variable: movies
-    created() {
-          fetch('movies.json').then(response => response.json()).then(json => {
-                this.movies = json
-          })
-    },
-    data() {
-          return {
-                // This holds your movies.json data.
-                projects: [],
-          }
-    }
-}) 
+      created() {
+            fetch('gallery.json').then(response => response.json()).then(json => {
+                  this.gallery = json
+            })
+      },
+      data() {
+            return {
+                  gallery: [],
+            }
+      }
+
+})
+vue_app.mount("#vue_app")

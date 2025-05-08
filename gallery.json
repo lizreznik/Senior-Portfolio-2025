@@ -1,9 +1,44 @@
 [
     {
+        "title": "Summer-tainment",
+        "poster": [
+            "img/summer-tainment.jpg"
+        ],
+        "year": "2023"
+    },
+    {
         "title": "...",
         "poster": [
-"img/..."
-        ], 
+            "img/..."
+        ],
+        "year": "..."
+    },
+    {
+        "title": "...",
+        "poster": [
+            "img/..."
+        ],
+        "year": "..."
+    },
+    {
+        "title": "...",
+        "poster": [
+            "img/..."
+        ],
+        "year": "..."
+    },
+    {
+        "title": "...",
+        "poster": [
+            "img/..."
+        ],
+        "year": "..."
+    },
+    {
+        "title": "...",
+        "poster": [
+            "img/..."
+        ],
         "year": "..."
     }
 ]
