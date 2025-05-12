@@ -70,12 +70,15 @@
 
             <!-- grid / cards START -->
             <div class="container text-center">
-                <div class="row">
+                <div class="row" id="teamCards">
 
-                    <div v-for="(item, index) in gallery" :key="index" class="col-6 col-md-4">
+                </div>
+
+
+                <!-- <div v-for="(item, index) in gallery" :key="index" class="col-6 col-md-4">
                         <div class="card" style="width: 18rem;">
                             <div class="card-body">
-                                <p class="title">{{ item.title }} ({{ item.year }})</p>
+                                <p class="title"></p>
                             </div>
                         </div>
                         <img class="poster img-fluid" :src="gallery[index].poster[gallery[index].poster]">
@@ -124,14 +127,13 @@
                             </div>
                             <img src="https://picsum.photos/400/300" class="card-img-top" alt="...">
                         </div>
-                    </div>
-                </div>
+                    </div> -->
             </div>
         </div>
         <!-- grid / cards END -->>
     </main>
     <footer>
-        <p>&copy; 2025 Elizabeth Reznik WDPP. All rights reserved.</p>
+        <p class="sticky-bottom">&copy; 2025 Elizabeth Reznik WDPP. All rights reserved.</p>
         <p>
             <a href="mailto:525ereznik@frhsd.com">Contact Me</a>
         </p>
@@ -146,7 +148,7 @@
         crossorigin="anonymous"></script>
 
     <!-- This load the Vue.js code -->
-    <script type="text/javascript" src="site.js"></script>
+    <script src="gallery.js"></script>
 </body>
 
 </html>

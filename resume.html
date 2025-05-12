@@ -8,7 +8,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
     <!-- css links START -->
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="resume.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Average+Sans&display=swap" rel="stylesheet">
     <!-- css links END -->
 
     <!-- Bootstrap CSS v5.2.1 -->
@@ -18,11 +26,113 @@
 
 <body>
     <header>
-        <!-- place navbar here -->
+        <nav class="navbar custom-navbar fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Liz Reznik Senior Portfolio 2025</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="about.html">About Me</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="gallery.html">Gallery</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Resume</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
     </header>
-    <main></main>
+    <main>
+        <h1 class="header"> Resume </h1>
+        <div class="resume-container">
+            <header class="header">
+                <h1>John Doe</h1>
+                <p>Web Developer | UI/UX Designer</p>
+                <p>Email: john.doe@example.com | Phone: +123 456 7890 | Location: City, Country</p>
+            </header>
+
+            <section class="summary">
+                <h2>Summary</h2>
+                <p>A passionate and skilled web developer with 5+ years of experience in building responsive and
+                    user-friendly websites. Proficient in HTML, CSS, JavaScript, and various front-end frameworks.
+                    Committed to delivering high-quality web solutions with excellent user experience.</p>
+            </section>
+
+            <section class="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li>HTML5 & CSS3</li>
+                    <li>JavaScript & jQuery</li>
+                    <li>React & Angular</li>
+                    <li>UI/UX Design</li>
+                    <li>Responsive Web Design</li>
+                    <li>Git & GitHub</li>
+                    <li>Web Performance Optimization</li>
+                </ul>
+            </section>
+
+            <section class="experience">
+                <h2>Experience</h2>
+                <div class="job">
+                    <h3>Web Developer</h3>
+                    <p><em>ABC Company | January 2020 – Present</em></p>
+                    <ul>
+                        <li>Developed and maintained responsive websites using HTML, CSS, and JavaScript.</li>
+                        <li>Collaborated with design teams to create intuitive user interfaces.</li>
+                        <li>Optimized web applications for speed and scalability.</li>
+                        <li>Led a team of junior developers and mentored new hires.</li>
+                    </ul>
+                </div>
+
+                <div class="job">
+                    <h3>Frontend Developer</h3>
+                    <p><em>XYZ Solutions | June 2016 – December 2019</em></p>
+                    <ul>
+                        <li>Implemented interactive web applications using React and Angular.</li>
+                        <li>Worked closely with the backend team to integrate APIs.</li>
+                        <li>Enhanced user experience by improving navigation and performance.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="education">
+                <h2>Education</h2>
+                <div class="degree">
+                    <h3>Bachelor of Science in Computer Science</h3>
+                    <p><em>University of Example | Graduated: 2016</em></p>
+                </div>
+            </section>
+
+            <section class="contact">
+                <h2>Contact</h2>
+                <p>If you would like to discuss any opportunities, feel free to reach out to me!</p>
+                <p>Email: <a href="mailto:john.doe@example.com">john.doe@example.com</a></p>
+                <p>Phone: <a href="tel:+1234567890">+123 456 7890</a></p>
+            </section>
+        </div>
+    </main>
     <footer>
-        <!-- place footer here -->
+        <p class="fixed-bottom">&copy; 2025 Elizabeth Reznik WDPP. All rights reserved.</p>
+        <p>
+            <a href="mailto:525ereznik@frhsd.com">Contact Me</a>
+        </p>
     </footer>
     <!-- Bootstrap JavaScript Libraries -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
