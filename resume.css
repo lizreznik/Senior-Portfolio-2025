@@ -169,6 +169,15 @@ ul li {
     text-decoration: underline;
 }
 
+/* general reset END*/
+
+/*resume details START*/
+.skills ul {
+    display: none;
+}
+
+/* resume details END*/
+
 /* footer START */
 p {
     color: black;
