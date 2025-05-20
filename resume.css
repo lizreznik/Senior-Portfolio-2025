@@ -211,6 +211,25 @@ ul {
 
 /*image END*/
 
+.slideshow-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.cert-slide {
+    width: 80%;
+    max-width: 500px;
+    height: auto;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
+}
+
+.slideshow-buttons button {
+    margin: 0 10px;
+}
+
 /* footer START */
 p {
     color: black;
