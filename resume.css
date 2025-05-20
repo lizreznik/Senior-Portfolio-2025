@@ -214,6 +214,7 @@ ul {
 .slideshow-container {
     text-align: center;
     margin-top: 20px;
+    font-family: "Average Sans", sans-serif;
 }
 
 .cert-slide {
@@ -224,10 +225,13 @@ ul {
     border-radius: 10px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
     margin-bottom: 10px;
+
 }
 
 .slideshow-buttons button {
     margin: 0 10px;
+    color: #3C5B49;
+    color: #3C5B49 !important;
 }
 
 /* footer START */
