@@ -1,43 +1,63 @@
-const projectCards = [
+const galleryData = [
       {
-            title: "project 1",
-            poster: "...",
-            year: "...",
+            imgSrc: "projects/summer-tainment.jpg",
+            altText: "Sunset over mountains",
+            title: "Mountain Sunset",
+            year: "2023",
+            description: "A beautiful sunset casting golden hues over the mountain range."
       },
+      {
+            imgSrc: "image2.jpg",
+            altText: "City skyline at night",
+            description: "The city lights illuminate the night sky in this vibrant skyline view."
+      },
+      {
+            imgSrc: "image3.jpg",
+            altText: "Forest trail",
+            description: "A peaceful trail winding through a lush green forest."
+      }
+      // Add more objects for more images
 ];
-function generateGalleryCards() {
-      const galleryCardsContainer = document.getElementById("projectCards")
 
-      projectCards.forEach(project => {
-            const card = document.createElement('div')
-            card.classList.add('col-md-4')
+function generateGallery() {
+      const container = document.getElementById("galleryContainer");
 
-            // styling card based on position: 
-            let backgroundColor
+      galleryData.forEach(item => {
+            // Create card div
+            const card = document.createElement("div");
+            card.classList.add("card");
+            card.style.width = "18rem";
 
-            switch (project.genre.toLowerCase) {
-                  case 'forward':
-                        backgroundColor = '#ffc107'
-                        break
-            }
-            card.style.backgroundColor = backgroundColor
-            //create a list of skills with <li> tags //
-            const favoriteList = member.favorite.map(favorite => `<li> ${favorite} </li> `).join('')
+            // Create image element
+            const img = document.createElement("img");
+            img.src = item.imgSrc;
+            img.alt = item.altText;
+            img.classList.add("card-img-top");
 
-            card.innerHTML = `
-    <div class = "card"> 
-        <div class = "card-header"> ${project.title} </div> \
-        <div class = "h1"> ${project.year} </div> 
-        <div class = "card-body"> 
-            <div class = "card-img">
-                <img class="img-fluid" src= ${project.poster}
-            </div> 
-        </div> 
-    </div> 
-    `
+            // Create card body div
+            const cardBody = document.createElement("div");
+            cardBody.classList.add("card-body");
 
-            teamCardsContainer.appendChild(card)
-      })
+
+            // fix this!!!!!! 
+
+            // Add heading (title and year)
+            const heading = document.createElement("h5");
+            heading.classList.add("card-title");
+            heading.textContent = `${item.year} — ${item.title}`;
+
+            // Create description paragraph
+            const desc = document.createElement("p");
+            desc.classList.add("card-text");
+            desc.textContent = item.description;
+
+            // Append elements
+            cardBody.appendChild(desc);
+            card.appendChild(img);
+            card.appendChild(cardBody);
+            container.appendChild(card);
+      });
 }
 
-window.onload = generateTeamCards()
+// Call the function after page loads
+window.onload = generateGallery;

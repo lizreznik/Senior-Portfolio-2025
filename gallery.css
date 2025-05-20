@@ -1,98 +1,129 @@
 body,
 html,
-main{ 
-    font-family: "Playfair Display SC", serif;
-    font-weight: 400;
-    font-style: normal;  
-}
-body{ 
-    background-image: url("flower background.jpg");
-    height: 100%;
-    background-position: center;
-    background-repeat: repeat;
-    background-size: cover;
-}
-/* nav bar START*/
-.custom-navbar {
-    background-color: transparent !important;
-    box-shadow: none;
-    font-family: "Playfair Display SC", "serif";
-    text-align: center;
-    /* optional, to remove shadow */
-}
-
-.offcanvas-title {
-    font-size: 25px;
-    color: #3C5B49;
-}
-
-.nav-item {
-    font-size: 20px;
-    padding: 5px;
-}
-/*nav bar END */
-
-/* nav bar hover START */ 
-a {
-    text-decoration: none;
-    position: relative;
-    overflow: hidden;
-  }
-  
-  a::before,
-  a::after {
-    content: "";
-    position: absolute;
-    width: 0;
-    height: 2px;
-    background: #A6A6A6;
-    transition: all 0.5s;
-  }
-  
-  a::before {
-    top: 0;
-    left: 0;
-  }
-  
-  a::after {
-    bottom: 0;
-    right: 0;
-  }
-  
-  a:hover::before {
-    width: 100%;
-    transition: width 0.25s ease-in-out;
-  }
-  
-  a:hover::after {
-    width: 100%;
-    transition: width 0.25s ease-in-out 0.25s;
-  }
-  /* nav bar hover END */ 
-  .header {
-    font-family: "Playfair Display SC", serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 60px;
-    text-align: center;
-    padding-top: 3%;
-    padding-bottom: 3%; 
-    color: #3C5B49;
-}
-/* gallery / card  START*/ 
-.card{ 
-    padding: 3%; 
-    margin: 3%; 
-}
-/* gallery / card END */ 
-
-  /* footer START */ 
-  p {
-    background-color: transparent !important; 
-    color: black;
-    text-align: center;
-    font-family: "Average Sans", sans-serif;
+main {
+  font-family: "Playfair Display SC", serif;
   font-weight: 400;
   font-style: normal;
 }
-/* footer END */ 
+
+body {
+  background-image: url("flower background.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+/* nav bar START*/
+.custom-navbar {
+  background-color: transparent !important;
+  box-shadow: none;
+  font-family: "Playfair Display SC", "serif";
+  text-align: center;
+  /* optional, to remove shadow */
+}
+
+.offcanvas-title {
+  font-size: 25px;
+  color: #3C5B49;
+}
+
+.nav-item {
+  font-size: 20px;
+  padding: 5px;
+}
+
+/*nav bar END */
+
+/* nav bar hover START */
+a {
+  text-decoration: none;
+  position: relative;
+  overflow: hidden;
+}
+
+a::before,
+a::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background: #A6A6A6;
+  transition: all 0.5s;
+}
+
+a::before {
+  top: 0;
+  left: 0;
+}
+
+a::after {
+  bottom: 0;
+  right: 0;
+}
+
+a:hover::before {
+  width: 100%;
+  transition: width 0.25s ease-in-out;
+}
+
+a:hover::after {
+  width: 100%;
+  transition: width 0.25s ease-in-out 0.25s;
+}
+
+/* nav bar hover END */
+.header {
+  font-family: "Playfair Display SC", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 60px;
+  text-align: center;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  color: #3C5B49;
+}
+
+/* gallery / card  START*/
+.card {
+  width: 350px;
+  /* Bigger card width */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  margin: 15px;
+  /* add spacing around cards */
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+}
+
+.card-img-top {
+  width: 100%;
+  height: 300px;
+  /* Larger image height */
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 20px;
+  font-size: 1.1rem;
+  /* Slightly larger text */
+}
+
+/* gallery / card END */
+
+/* footer START */
+p {
+  background-color: transparent !important;
+  color: black;
+  text-align: center;
+  font-family: "Average Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* footer END */
