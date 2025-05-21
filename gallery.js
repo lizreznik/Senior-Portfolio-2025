@@ -1,20 +1,108 @@
 const galleryData = [
       {
             imgSrc: "projects/summer-tainment.jpg",
-            altText: "Sunset over mountains",
-            title: "Mountain Sunset",
-            year: "2023",
-            description: "A beautiful sunset casting golden hues over the mountain range."
+            altText: "Summer-tainment 2023",
+            title: "Summer-tainment",
+            year: "Jr",
+            description: "..."
       },
       {
-            imgSrc: "image2.jpg",
-            altText: "City skyline at night",
-            description: "The city lights illuminate the night sky in this vibrant skyline view."
+            imgSrc: "https://picsum.photos/200/300",
+            altText: "Magic 8 Ball 2023",
+            title: "Magic 8 Ball",
+            year: "Jr",
+            description: "..."
       },
       {
-            imgSrc: "image3.jpg",
-            altText: "Forest trail",
-            description: "A peaceful trail winding through a lush green forest."
+            imgSrc: "https://picsum.photos/200/300",
+            altText: "Mad Lib 2024",
+            title: "Mad Lib",
+            year: "Jr",
+            description: "..."
+      },
+       {
+            imgSrc: "https://picsum.photos/200/300",
+            altText: "Look Ma, I'm Famous! 2024",
+            title: "Look Ma, I'm Famous!",
+            year: "Jr",
+            description: "..."
+      },
+      {
+            imgSrc: "https://picsum.photos/200/300",
+            altText: "Tip Calaculator 2024",
+            title: "Tip Calculator",
+            year: "Jr",
+            description: "..."
+      },
+      {
+            imgSrc: "https://picsum.photos/200/300",
+            altText: "On My Birthday 2024",
+            title: "On My Birthday",
+            year: "Jr",
+            description: "..."
+      },
+      {
+            imgSrc: "https://picsum.photos/200/300",
+            altText: "Rock Paper Scissors 2024",
+            title: "Rock Paper Scissors",
+            year: "Jr",
+            description: "..."
+      },
+      {
+            imgSrc: "https://picsum.photos/200/300",
+            altText: "Future Me 2024",
+            title: "Future Me",
+            year: "Jr",
+            description: "..."
+      },
+      {
+            imgSrc: "https://picsum.photos/200/300",
+            altText: "SuperTeam 2024",
+            title: "SuperTeam",
+            year: "Jr",
+            description: "..."
+      },
+      {
+            imgSrc: "https://picsum.photos/200/300",
+            altText: "College Recruitment 2024",
+            title: "College Recruitment",
+            year: "Sr",
+            description: "..."
+      },
+      {
+            imgSrc: "https://picsum.photos/200/300",
+            altText: "Trunk or Treat 2024",
+            title: "Trunk or Treat",
+            year: "Sr",
+            description: "..."
+      },
+      {
+            imgSrc: "https://picsum.photos/200/300",
+            altText: "NJIT 1 2024",
+            title: "NJIT #1",
+            year: "Sr",
+            description: "..."
+      },
+      {
+            imgSrc: "https://picsum.photos/200/300",
+            altText: "NJIT 2 2024",
+            title: "NJIT #2",
+            year: "Sr",
+            description: "..."
+      },
+      {
+            imgSrc: "https://picsum.photos/200/300",
+            altText: "Marlboro Tech 2025",
+            title: "Marlboro Tech",
+            year: "Sr",
+            description: "..."
+      },
+      {
+            imgSrc: "https://picsum.photos/200/300",
+            altText: "Work Based 2025",
+            title: "Work Based Learning",
+            year: "Sr",
+            description: "..."
       }
       // Add more objects for more images
 ];
@@ -52,6 +140,7 @@ function generateGallery() {
             desc.textContent = item.description;
 
             // Append elements
+            cardBody.appendChild(heading);
             cardBody.appendChild(desc);
             card.appendChild(img);
             card.appendChild(cardBody);
