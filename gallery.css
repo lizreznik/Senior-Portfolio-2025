@@ -74,14 +74,13 @@ a:hover::after {
 
 /* nav bar hover END */
 .header {
-  font-family: "Playfair Display SC", serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 60px;
-  text-align: center;
-  padding-top: 3%;
-  padding-bottom: 3%;
-  color: #3C5B49;
+    font-family: "Playfair Display SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 3%;
+    color: #3C5B49;
 }
 
 /* gallery / card  START*/
