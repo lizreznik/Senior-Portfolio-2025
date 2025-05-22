@@ -12,11 +12,12 @@
     .split-container {
       display: flex;
       height: 100vh;
+      padding: none; 
     }
 
     .left {
       flex: 1;
-      background: url('your-image.jpg') no-repeat center center/cover;
+      background: url('https://picsum.photos/200/300') no-repeat center center/cover;
     }
 
     .right {
