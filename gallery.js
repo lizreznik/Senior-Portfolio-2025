@@ -4,70 +4,70 @@ const galleryData = [
             altText: "Summer-tainment 2023",
             title: "Summer-tainment",
             year: "Jr",
-            description: "..."
+            description: "A refresher from last year about HTML, Bootstrap, and CSS"
       },
       {
             imgSrc: "projects/magic8ball.png",
             altText: "Magic 8 Ball 2023",
             title: "Magic 8 Ball",
             year: "Jr",
-            description: "..."
+            description: "An introduction into JavaScript"
       },
       {
             imgSrc: "projects/madlib.png",
             altText: "Mad Lib 2024",
             title: "Mad Lib",
             year: "Jr",
-            description: "..."
+            description: "Used Javascript and template literals to create a MadLib"
       },
       {
             imgSrc: "projects/lookmaimfamous.png",
             altText: "Look Ma, I'm Famous! 2024",
             title: "Look Ma, I'm Famous!",
             year: "Jr",
-            description: "..."
+            description: "Monthly project"
       },
       {
             imgSrc: "projects/tipcalculator.png",
             altText: "Tip Calaculator 2024",
             title: "Tip Calculator",
             year: "Jr",
-            description: "..."
+            description: "Introduced to Functions in JavaScript"
       },
       {
             imgSrc: "projects/onmybirthday.png",
             altText: "On My Birthday 2024",
             title: "On My Birthday",
             year: "Jr",
-            description: "..."
+            description: "Monthly project where functions were practiced"
       },
       {
             imgSrc: "projects/rockpaperscissor.png",
             altText: "Rock Paper Scissors 2024",
             title: "Rock Paper Scissors",
             year: "Jr",
-            description: "..."
+            description: "Practiced using conditionals and arrays to build a game"
       },
       {
             imgSrc: "projects/luckymelottery.png",
             altText: "Lucky Me Lottery 2024",
             title: "Lucky Me Lottery",
             year: "Jr",
-            description: "..."
+            description: "Monthly project where event listeners were practiced"
       },
       {
             imgSrc: "projects/futureme.png",
             altText: "Future Me 2024",
             title: "Future Me",
             year: "Jr",
-            description: "..."
+            description: "Monthly project using HTML, Bootstrap, and CSS"
       },
       {
             imgSrc: "projects/superteam.png",
             altText: "SuperTeam 2024",
             title: "SuperTeam",
             year: "Jr",
-            description: "..."
+            description: "Used JavaScript code to dynamically generate Bootstrap cards for each team member using a data array"
       },
       {
             imgSrc: "projects/collegerecruitment.png",
