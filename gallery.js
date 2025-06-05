@@ -7,100 +7,100 @@ const galleryData = [
             description: "..."
       },
       {
-            imgSrc: "https://picsum.photos/200/300",
+            imgSrc: "projects/magic8ball.png",
             altText: "Magic 8 Ball 2023",
             title: "Magic 8 Ball",
             year: "Jr",
             description: "..."
       },
       {
-            imgSrc: "https://picsum.photos/200/300",
+            imgSrc: "projects/madlib.png",
             altText: "Mad Lib 2024",
             title: "Mad Lib",
             year: "Jr",
             description: "..."
       },
-       {
-            imgSrc: "https://picsum.photos/200/300",
+      {
+            imgSrc: "projects/lookmaimfamous.png",
             altText: "Look Ma, I'm Famous! 2024",
             title: "Look Ma, I'm Famous!",
             year: "Jr",
             description: "..."
       },
       {
-            imgSrc: "https://picsum.photos/200/300",
+            imgSrc: "projects/tipcalculator.png",
             altText: "Tip Calaculator 2024",
             title: "Tip Calculator",
             year: "Jr",
             description: "..."
       },
       {
-            imgSrc: "https://picsum.photos/200/300",
+            imgSrc: "projects/onmybirthday.png",
             altText: "On My Birthday 2024",
             title: "On My Birthday",
             year: "Jr",
             description: "..."
       },
       {
-            imgSrc: "https://picsum.photos/200/300",
+            imgSrc: "projects/rockpaperscissor.png",
             altText: "Rock Paper Scissors 2024",
             title: "Rock Paper Scissors",
             year: "Jr",
             description: "..."
       },
       {
-            imgSrc: "https://picsum.photos/200/300",
+            imgSrc: "projects/luckymelottery.png",
+            altText: "Lucky Me Lottery 2024",
+            title: "Lucky Me Lottery",
+            year: "Jr",
+            description: "..."
+      },
+      {
+            imgSrc: "projects/futureme.png",
             altText: "Future Me 2024",
             title: "Future Me",
             year: "Jr",
             description: "..."
       },
       {
-            imgSrc: "https://picsum.photos/200/300",
+            imgSrc: "projects/superteam.png",
             altText: "SuperTeam 2024",
             title: "SuperTeam",
             year: "Jr",
             description: "..."
       },
       {
-            imgSrc: "https://picsum.photos/200/300",
+            imgSrc: "projects/collegerecruitment.png",
             altText: "College Recruitment 2024",
             title: "College Recruitment",
             year: "Sr",
             description: "..."
       },
       {
-            imgSrc: "https://picsum.photos/200/300",
+            imgSrc: "projects/trunkortreat.png",
             altText: "Trunk or Treat 2024",
             title: "Trunk or Treat",
             year: "Sr",
             description: "..."
       },
       {
-            imgSrc: "https://picsum.photos/200/300",
+            imgSrc: "projects/njit1.png",
             altText: "NJIT 1 2024",
             title: "NJIT #1",
             year: "Sr",
             description: "..."
       },
       {
-            imgSrc: "https://picsum.photos/200/300",
+            imgSrc: "projects/njit2.png",
             altText: "NJIT 2 2024",
             title: "NJIT #2",
             year: "Sr",
             description: "..."
       },
       {
-            imgSrc: "https://picsum.photos/200/300",
+            imgSrc: "projects/marlboroteched.png",
             altText: "Marlboro Tech 2025",
             title: "Marlboro Tech",
-            year: "Sr",
-            description: "..."
-      },
-      {
-            imgSrc: "https://picsum.photos/200/300",
-            altText: "Work Based 2025",
-            title: "Work Based Learning",
             year: "Sr",
             description: "..."
       }
