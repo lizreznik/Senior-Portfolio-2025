@@ -74,35 +74,35 @@ const galleryData = [
             altText: "College Recruitment 2024",
             title: "College Recruitment",
             year: "Sr",
-            description: "..."
+            description: "Monthly project - after summer refresher"
       },
       {
             imgSrc: "projects/trunkortreat.png",
             altText: "Trunk or Treat 2024",
             title: "Trunk or Treat",
             year: "Sr",
-            description: "..."
+            description: "Used JQuery and JavaScript to create an interactive and informative webpage for an event"
       },
       {
             imgSrc: "projects/njit1.png",
             altText: "NJIT 1 2024",
             title: "NJIT #1",
             year: "Sr",
-            description: "..."
+            description: "Created an interactive photo gallery using JQuery"
       },
       {
             imgSrc: "projects/njit2.png",
             altText: "NJIT 2 2024",
             title: "NJIT #2",
             year: "Sr",
-            description: "..."
+            description: "Created another interactive photo gallery for movie posters following a tutorial"
       },
       {
             imgSrc: "projects/marlboroteched.png",
             altText: "Marlboro Tech 2025",
             title: "Marlboro Tech",
             year: "Sr",
-            description: "..."
+            description: "Worked with clients to create an interactive and informative webpage to promote a class/course"
       }
       // Add more objects for more images
 ];
