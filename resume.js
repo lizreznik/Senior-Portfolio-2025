@@ -3,7 +3,7 @@ $(document).ready(function () {
         $(this).nextAll('ul').slideToggle(); // Toggle all resume-detail elements that follow
     });
 });
-const certImages = ["https://picsum.photos/300/200", "https://picsum.photos/300/200", "https://picsum.photos/300/200"]; // This line creates a list of all the certificate images you want to show. Each image is listed by its filename (you can add as many as you want).
+const certImages = ["standardfirstaid.jpg", "oxygensupport.jpg", "healthcare.jpg"]; // This line creates a list of all the certificate images you want to show. Each image is listed by its filename (you can add as many as you want).
 let currentCert = 0; //This sets the starting image to the first one in the list (index 0). It keeps track of which image is currently showing.
 
 function showCert(index) {
@@ -19,6 +19,5 @@ function prevCert() {
 function nextCert() {
     currentCert = (currentCert + 1) % certImages.length;
     showCert(currentCert); //This function shows the next image when you click "Next." If you're on the last image, it loops back to the first.
-
 
 }
